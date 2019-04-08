@@ -1,0 +1,291 @@
+/* game's background color */
+
+body {
+    background-color: #ccf5f5;
+	display: inline;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+#buttons_container {
+	display: none;
+	margin-top: 25%;
+	width: 100%;
+	text-align: center;
+}
+
+#yes, #not {
+	background-color: transparent;
+	outline: none;
+	border: none;
+	color: #778F8F;
+	text-shadow: 5px 5px #C7D6E9;
+	font-size: 70px;
+	float: left;
+	width: 50%;
+	margin-top: 10%;
+}
+
+#play_again {
+	color: #778F8F;
+	text-shadow: 5px 5px #C7D6E9;
+	font-size: 80px;
+	text-align: center;
+}
+
+/* header */
+.navbar {
+	width: 100%;
+	height: 13vh;
+	display: inline-block;
+}
+
+#left_side{
+	width : 33%;
+	float: left;
+	padding-top: 2%;
+}
+
+#score, #lives {
+	width: 45%;
+	display: inline-block;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 40px;
+	font-family: 'Gloria Hallelujah', cursive;
+	color: #778F8F;
+	text-shadow: 5px 5px #C7D6E9;
+}
+
+#image {  /* image for the header */
+	width: 33%;
+	float: left;
+	background-image: url('./media/penguin_title.png');
+	height: 100%;
+	background-repeat: no-repeat;
+}
+
+#right_side {
+	width : 33%;
+	float: left;
+	padding-top: 2%;
+}
+
+#timer {
+	width: 100%;
+	float: left;
+	height: 150px;
+	text-align: center;
+	font-size: 70px;
+	color: #778F8F;
+	text-shadow: 5px 5px #C7D6E9;
+}
+
+/* game body */
+
+#game_body {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+
+#gameholder {
+	width: 33%;
+	float: left;
+	height: 74vh;
+	text-align: center;
+}
+
+#display {
+	width: 100%;
+	text-align: center;
+	font-size: 80px;
+	color: #778F8F;
+	text-shadow: 5px 5px #C7D6E9;
+	margin-top: 25%;
+}
+
+#display_left {
+    float: left;
+	width: 33%;
+	height: 74vh;
+	text-align: center;
+	color: #778F8F;
+	text-shadow: 5px 5px #C7D6E9;
+	margin-top: 10%;
+	font-size: 80px;
+}
+
+
+/* #message {
+    width: 100%;
+	float: left;
+	height: 150px;
+	text-align: center;
+	font-size: 70px;
+	color: #778F8F;
+	text-shadow: 5px 5px #C7D6E9;
+}  */
+
+/* styles for the first penguin*/
+.penguin1:hover {
+	background-image: url('./media/mound_1_hover.png')
+}
+
+.penguin1:active {
+	background-image: url('./media/penguin_1.png');
+	transition:0s;
+}
+
+.penguin1 {
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-image: url('./media/mound_1.png');
+	transition:0s 30s;
+}
+
+
+.penguin2:hover {
+	background-image: url('./media/mound_2_hover.png')
+}
+
+.penguin2:active {
+	background-image: url('./media/penguin_2.png');
+	transition:0s;
+}
+
+.penguin2 {
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-image: url('./media/mound_2.png');
+	transition:0s 30s;
+}
+
+
+
+.penguin3:hover {
+	background-image: url('./media/mound_3_hover.png')
+}
+
+.penguin3:active {
+	background-image: url('./media/penguin_3.png');
+	transition:0s;
+}
+
+.penguin3 {
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-image: url('./media/mound_3.png');
+	transition:0s 30s;
+}
+
+.penguin4:hover {
+	background-image: url('./media/mound_4_hover.png')
+}
+
+.penguin4:active {
+	background-image: url('./media/penguin_4.png');
+	transition:0s;
+}
+
+.penguin4 {
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-image: url('./media/mound_4.png');
+	transition:0s 30s;
+}
+
+
+
+.penguin5:hover {
+	background-image: url('./media/mound_5_hover.png')
+}
+
+.penguin5:active {
+	background-image: url('./media/penguin_5.png');
+	transition:0s;
+}
+
+.penguin5 {
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-image: url('./media/mound_5.png');
+	transition:0s 30s;
+}
+
+
+
+.penguin6:hover {
+	background-image: url('./media/mound_6_hover.png')
+}
+
+.penguin6:active {
+	background-image: url('./media/penguin_6.png');
+	transition:0s;
+}
+
+.penguin6 {
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-image: url('./media/mound_6.png');
+	transition:0s 30s;
+}
+
+
+.penguin7:hover {
+	background-image: url('./media/mound_7_hover.png')
+}
+
+.penguin7:active {
+	background-image: url('./media/penguin_7.png');
+	transition:0s;
+}
+
+.penguin7 {
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-image: url('./media/mound_7.png');
+	transition:0s 30s;
+}
+
+
+.penguin8:hover {
+	background-image: url('./media/mound_8_hover.png')
+}
+
+.penguin8:active {
+	background-image: url('./media/penguin_8.png');
+	transition:0s;
+}
+
+.penguin8 {
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-image: url('./media/mound_8.png');
+	transition:0s 30s;
+}
+
+
+.yeti:hover {
+	background-image: url('./media/mound_9_hover.png')
+}
+.yeti:active {
+	background-image: url('./media/yeti.png');
+	transition:0s;
+}
+.yeti {
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-image: url('./media/mound_9.png');
+	transition:0s 30s;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Penguins Game</title>
+
+	<script
+	src="https://code.jquery.com/jquery-3.3.1.js"
+	integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+	crossorigin="anonymous"></script>
+
+	<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
+
+	
+	<script type="text/javascript" src='index.js'></script>
+
+	<link rel="stylesheet" type="text/css" href="index.css">
+	
+</head>
+<!--  set initial settings -->
+<body onload="initialSettings()">
+<!--  header -->	
+	<div class='navbar'>
+
+        <div id='left_side'>
+			<div id='score'>   </div>
+			<div id='lives'>   </div>
+		</div>
+
+		<div id='image'></div>
+
+		<div id='right_side'>
+			<div id ='timer'></div>
+		</div>
+	</div>
+    
+<!--  game body -->
+	<div class='game_body'>
+			<div id='display_left'></div>
+    
+			<div id='gameholder'>
+				<div id='display'></div>
+				<div id='buttons_container'>
+					    <div id='play_again'>Play again?</div>
+						<button id="yes" onclick="initialSettings(false,2000,2500)">yes</button>
+						<button id="not" onclick="alert('😉 Press yes if you want to play again 😉')">no</button>
+				</div>
+
+			</div>
+	</div>
+
+    
+	   
+
+</body>
+</html>
